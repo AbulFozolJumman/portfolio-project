@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* Header section */
+header{
+    padding-left: 230px;
+    background: #fff8f3;
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+/* Nav section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 230px 50px 0;
+}
+#nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+#name-highlight{
+    color: #fd6e0a;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.btn-primary{
+    align-items: center;
+    background: #fd6e0a;
+    color: #ffffff;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 5px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* Banner section */
+.banner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner-text, .banner-img{
+    width: 45%;
+    padding-right: 5%;
+}
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.banner-title{
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.btn{
+    display: flex;
+}
+.btn-secondary{
+    margin-left: 20px;
+    background: #ffffff;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    padding: 18px 35px;
+    border-radius: 5px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* Main section */
+.section{
+    background: #fff8f3;
+    width: 1140px;
+    margin: 100px auto;
+}
+/* About me section */
+.about-me{
+    padding: 130px 150px;
+    text-align: center;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.section-description{
+    text-align: center;
+    font-size: 18px;
+    color: #757575;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section-info{
+    display: flex;
+    justify-content: space-between;
+}
+.info-item{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-size: 20px;
+    font-weight: 700;
+}
+/* Skills section */
+#skill-section{
+    background: none;
+}
+.what-i-do{
+    padding: 0 150px;
+}
+.skill{
+    border: 0;
+    margin-top: 20px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+    width: 204px;
+}
+/* Resume section */
+.resume-section{
+    background: none;
+}
+#resume-title{
+    margin-bottom: 100px;
+}
+.item-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.section-item{
+    width: 511px;
+    padding-right: 30px;
+    border-bottom: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+}
+.section-info:nth-last-child(2) .section-item{
+    border: 0;
+}
+.item-title-secondary{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+.item-description-primary{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.item-description{
+    color: #757575;
+    margin-bottom: 30px;
+}
+.resume-btn{
+    display: flex;
+    justify-content: center;
+}
+/* Footer */
+.footer{
+    background: #fff8f3;
+}
+/* Contact section */
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 100px 0;
+    background: none;
+
+}
+.contact-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.contact-description{
+    color: #474747;
+    margin-bottom: 30px;
+    padding-right: 100px;
+}
+.contact-section img{
+    margin-right: 24px;
+}
+.contact-section input{
+    display: block;
+    margin-bottom: 24px;
+    width: 461px;
+    height: 64px;
+    padding-left: 30px;
+}
+textarea{
+    margin-bottom: 24px;
+    padding: 18px 30px;
+}
+input, textarea{
+    border: none;
+    border-radius: 5px;
+}
+::placeholder{
+    color: #757575;
+}
